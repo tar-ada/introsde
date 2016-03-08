@@ -14,8 +14,7 @@ hs_err_pid*
 # introsde ignore list
 solutions/
 */solutions/
-# myworkspace/
-#*/myworkspace/
+
 .DS_Store
 libraries/
 */libraries/
