@@ -1,4 +1,4 @@
-package World;
+package HelloWorld;
 
 public class Hello {
     public static String helloMessage = "Hello World!";
