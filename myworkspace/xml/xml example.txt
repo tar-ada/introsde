@@ -1,0 +1,10 @@
+@@@@this is an xml file retrival means using xpath
+@@@@@@Book example
+
+Absolute paths start from the top of the document and begin with /
+A path that starts with // can start from anywhere
+we use [] to find specific nodes or nodes that contain specifc values
+
+
+/bookstore/book[1]/publisher
+
