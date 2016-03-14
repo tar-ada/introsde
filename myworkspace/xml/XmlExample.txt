@@ -34,3 +34,29 @@
         <price>7.50</price>
     </book>
 </bookstore>
+
+
+Query: /bookstore/book[1]/publisher
+Output: 
+<publisher>Voyager Books</publisher>
+
+Query: //book[@year>2000]
+Output:
+
+<book year="2011">
+        <title>A Dance with Dragons</title>
+        <author>George R. R. Martin</author>
+        <publisher>Voyager Books</publisher>
+        <isbn>978-0553801477)</isbn>
+        <price>12.50</price>
+    </book>
+
+<book year="2005">
+        <title>Burning Tower</title>
+        <author>Larry Niven</author>
+        <author>Jerry Pournelle</author>
+        <publisher>Pocket</publisher>
+        <isbn>0743416910</isbn>
+        <price>5.99</price>
+    </book>
+Query: 

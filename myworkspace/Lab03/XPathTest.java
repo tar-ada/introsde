@@ -28,7 +28,7 @@ public class XPathTest {
 	    XPath xpath = factory.newXPath();
 	    System.out.println("Reading list of titles...");
 	    System.out.println("(using xpath = /bookstore/book/title/text()");
-	    XPathExpression expr = xpath.compile("/bookstore/book[1]/publisher/*");
+	    XPathExpression expr = xpath.compile("/bookstore/book[1]/publisher/text()");
 
 	    Object result = expr.evaluate(doc, XPathConstants.NODESET);
 	    NodeList nodes = (NodeList) result;
